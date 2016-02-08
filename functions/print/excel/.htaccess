@@ -1,0 +1,23 @@
+deny from all
+
+<Files "surveyReport.php">
+     Order Deny,Allow
+     Allow from All
+</Files>
+<Files "questionReport.php">
+     Order Deny,Allow
+     Allow from All
+</Files>
+<Files "questionReportGroups.php">
+     Order Deny,Allow
+     Allow from All
+</Files>
+<Files "questionReportGender.php">
+     Order Deny,Allow
+     Allow from All
+</Files>
+<Files "questionReportAge.php">
+     Order Deny,Allow
+     Allow from All
+</Files>
+
